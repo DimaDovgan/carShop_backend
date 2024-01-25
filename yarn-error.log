@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\dovga\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add cookieParser
+
+PATH: 
+  C:\Users\dovga\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dovga\bin;C:\Python311\Scripts;C:\Python311;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files (x86)\IncrediBuild;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Users\dovga\AppData\Local\Microsoft\WindowsApps;C:\Users\dovga\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dovga\AppData\Local\GitHubDesktop\bin;C:\Users\dovga\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cookieParser: Not found
+      at params.callback [as _callback] (C:\Users\dovga\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\dovga\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (C:\Users\dovga\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (C:\Users\dovga\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "template",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "cross-env NODE_ENV=production node ./server.js",
+      "start:dev": "cross-env NODE_ENV=development nodemon ./server.js",
+      "lint": "eslint **/*.js",
+      "lint:fix": "eslint --fix **/*.js"
+    },
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.17.1",
+      "fs": "^0.0.1-security",
+      "gravatar": "^1.8.2",
+      "jimp": "^0.16.1",
+      "joi": "^17.6.0",
+      "jsonwebtoken": "^8.5.1",
+      "logger": "^0.0.1",
+      "mongoose": "^6.4.6",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.5-lts.1",
+      "path": "^0.12.7",
+      "uniqid": "^5.4.0"
+    },
+    "devDependencies": {
+      "cross-env": "^7.0.3",
+      "eslint": "7.19.0",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-config-standard": "16.0.3",
+      "eslint-plugin-import": "2.25.3",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "5.2.0",
+      "nodemon": "^2.0.15"
+    },
+    "description": "Виконайте форк цього репозиторію для виконання домашніх завдань (2-6)\r Форк створить репозиторій на вашому http://github.com",
+    "main": ".eslintrc.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DimaDovgan/nodejs-homework-rest-api.git"
+    },
+    "author": "Dima Dovhan <dovgand887@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DimaDovgan/nodejs-homework-rest-api/issues"
+    },
+    "homepage": "https://github.com/DimaDovgan/nodejs-homework-rest-api#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
